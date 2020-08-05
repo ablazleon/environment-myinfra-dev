@@ -1,0 +1,10 @@
+adminUser:
+  password: local:myinfra/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: ablazleon@gmail.com
+  token: local:myinfra/pipelineUser:token
+  username: ablazleon
+prow:
+  hmacToken: local:myinfra/prow:hmacToken
