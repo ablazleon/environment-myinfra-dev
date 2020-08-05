@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[ablazleon/myexample](https://github.com/ablazleon/myexample.git) |  | []() | 
+[ablazleon/udagram-frontend](https://github.com/ablazleon/udagram-frontend.git) |  | []() | 

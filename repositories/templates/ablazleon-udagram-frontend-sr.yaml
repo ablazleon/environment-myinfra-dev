@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ablazleon
+    provider: github
+    repository: udagram-frontend
+  name: ablazleon-udagram-frontend
+spec:
+  description: Imported application for ablazleon/udagram-frontend
+  httpCloneURL: https://github.com/ablazleon/udagram-frontend.git
+  org: ablazleon
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: udagram-frontend
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ablazleon/udagram-frontend.git
