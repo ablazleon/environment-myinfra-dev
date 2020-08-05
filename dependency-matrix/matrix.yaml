@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ablazleon
-  repo: ml-api-docker-k8
-  url: https://github.com/ablazleon/ml-api-docker-k8.git
+  repo: my-server
+  url: https://github.com/ablazleon/my-server.git
   version: ""
   versionURL: ""

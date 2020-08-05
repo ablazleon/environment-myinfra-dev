@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ablazleon
+    provider: github
+    repository: my-server
+  name: ablazleon-my-server
+spec:
+  description: Imported application for ablazleon/my-server
+  httpCloneURL: https://github.com/ablazleon/my-server.git
+  org: ablazleon
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: my-server
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ablazleon/my-server.git
