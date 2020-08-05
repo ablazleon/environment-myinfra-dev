@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ablazleon
+    provider: github
+    repository: ml-api-docker-k8
+  name: ablazleon-ml-api-docker-k8
+spec:
+  description: Imported application for ablazleon/ml-api-docker-k8
+  httpCloneURL: https://github.com/ablazleon/ml-api-docker-k8.git
+  org: ablazleon
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ml-api-docker-k8
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ablazleon/ml-api-docker-k8.git

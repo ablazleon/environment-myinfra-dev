@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[ablazleon/udagram-frontend](https://github.com/ablazleon/udagram-frontend.git) |  | []() | 
+[ablazleon/ml-api-docker-k8](https://github.com/ablazleon/ml-api-docker-k8.git) |  | []() | 
