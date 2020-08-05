@@ -1,0 +1,46 @@
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mcredential-initializer[0m
+{"level":"info","ts":1596629596.4532394,"caller":"creds-init/main.go:44","msg":"Credentials initialized."}
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mworking-dir-initializer[0m
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mplace-tools[0m
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mstep-git-source-ablazleon-environment-myinfra-d-j5bxn-756cs[0m
+{"level":"info","ts":1596629605.432099,"caller":"git/git.go:105","msg":"Successfully cloned https://github.com/*********/environment-myinfra-dev.git @ master in path /workspace/source"}
+{"level":"warn","ts":1596629605.4322405,"caller":"git/git.go:152","msg":"Unexpected error: creating symlink: symlink /tekton/home/.ssh /root/.ssh: file exists"}
+{"level":"info","ts":1596629605.473721,"caller":"git/git.go:133","msg":"Successfully initialized and updated submodules in path /workspace/source"}
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mstep-setup-builder-home[0m
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:00a98faa4fd282aafa5aaaaf67528d9f260ce8c8,1:ebd5d9feb4a84f7e611e4301d694336ab9151774
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git fetch origin --unshallow ebd5d9feb4a84f7e611e4301d694336ab9151774: 00a98faa4fd282aafa5aaaaf67528d9f260ce8c8:
+DEBUG: ran git fetch --unshallow origin ebd5d9feb4a84f7e611e4301d694336ab9151774: 00a98faa4fd282aafa5aaaaf67528d9f260ce8c8: in 
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git branch
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git checkout master
+DEBUG: ran git checkout master in 
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git reset --hard 00a98faa4fd282aafa5aaaaf67528d9f260ce8c8
+DEBUG: ran git reset --hard 00a98faa4fd282aafa5aaaaf67528d9f260ce8c8 in 
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git clean -fd .
+DEBUG: ran clean --force -d . in 
+DEBUG: JX_LOG_LEVEL=error LC_ALL=C git merge ebd5d9feb4a84f7e611e4301d694336ab9151774
+DEBUG: ran git merge ebd5d9feb4a84f7e611e4301d694336ab9151774 in 
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git log --format=%H%x1f%an%x1f%ae%x1f%cn%x1f%ce%x1f%s%n%b%x1e 00a98faa4fd282aafa5aaaaf67528d9f260ce8c8..HEAD
+Merged SHA ebd5d9feb4a84f7e611e4301d694336ab9151774 with commit message 'chore(deps): bump https://github.com/*********/udagram-frontend.git' into base branch master
+Merged SHA 76844f505bd6d075d5c5cc35d405f8feddba079a with commit message 'chore(deps): bump https://github.com/*********/myexample.git' into base branch master
+
+Showing logs for build [32mablazleon-environment-myinfra-d-j5bxn-2[0m stage [32mpr-checks[0m and container [32mstep-verify-parameters[0m
+error: resolve the secrets URIs: replacing secrets URIs: replacing vault paths in *****User:
+  password: local:myinfra/*****User:password
+  username: *****
+enableDocker: false
+pipelineUser:
+  email: *********@gmail.com
+  token: local:myinfra/pipelineUser:token
+  username: *********
+prow:
+  hmacToken: local:myinfra/prow:hmacToken
+: unable to find "password" in secret at "myinfra/*****User"
+[31m
+Pipeline failed on stage 'pr-checks' : container 'step-verify-parameters'. The execution of the pipeline has stopped.[0m
