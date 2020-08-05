@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ablazleon
-  repo: my-server
-  url: https://github.com/ablazleon/my-server.git
+  repo: myserver
+  url: https://github.com/ablazleon/myserver.git
   version: ""
   versionURL: ""

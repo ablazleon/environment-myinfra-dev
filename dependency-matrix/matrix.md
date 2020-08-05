@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[ablazleon/my-server](https://github.com/ablazleon/my-server.git) |  | []() | 
+[ablazleon/myserver](https://github.com/ablazleon/myserver.git) |  | []() | 
